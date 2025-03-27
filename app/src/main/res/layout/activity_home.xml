@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dev.ckdevops.freshgreenery.Dashboard.HomeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorApp"
+        app:titleTextColor="@color/white"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="center"
+        android:theme="?attr/actionBarTheme"
+        app:title="User"
+        app:titleMarginStart="50dp" />
+
+
+
+
+    <FrameLayout
+        android:id="@+id/containerHomeUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarAdmin"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="70dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-14dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_gravity="bottom"
+        app:fabAlignmentMode="center"
+        app:fabCradleRoundedCornerRadius="30dp"
+        android:backgroundTint="@color/colorApp"
+        android:background="@color/colorApp"
+        android:labelFor="@id/bottomAppBar"
+        android:fitsSystemWindows="true"
+        app:labelVisibilityMode="selected">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BotnavViewUserHome"
+        android:layout_width="match_parent"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+
+        app:labelVisibilityMode="labeled"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/background_trans"
+        app:menu="@menu/bottom_nav_user" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_privacy_tip_24"
+        app:backgroundTint="@color/colorApp"
+        android:background="@color/colorApp"
+        app:fabSize="normal"
+        app:tint="@color/white"
+        app:layout_anchor="@+id/bottomAppBar"
+        app:layout_anchorGravity="top|center" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

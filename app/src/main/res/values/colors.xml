@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="colorApp">#E23744</color>
+<color name="colorGray">#CFD6D6</color>
+<color name="purple_200">#FFBB86FC</color>
+<color name="purple_500">#FF6200EE</color>
+<color name="purple_700">#FF3700B3</color>
+<color name="teal_200">#FF03DAC5</color>
+<color name="teal_700">#FF018786</color>
+<color name="black">#FF000000</color>
+<color name="white">#C8FDF8F5</color>
+<color name="colorPrimary">#2d2b5e</color>
+<color name="colorOnPrimary">#2d2b5e</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+<color name="colorWhite">#FFFFFF</color>
+<color name="colorBg">#EFE9E9</color>
+<color name="colorMain">#C4000000</color>
+<color name="red">#f44236</color>
+<color name="colorCK">#FFEB3B</color>
+<color name="green_new">#11D853</color>
+<color name="red_new">#FB0000</color>
+<color name="events">#FF03DAC5</color>
+<color name="light_blue">#E5F1F5</color> <!-- Light Blue -->
+<color name="dateColorLight">#939393</color>
+<color name="dateColorDark">#000000</color>
+</resources>

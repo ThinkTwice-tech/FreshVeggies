@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629403527543",
+    "firebase_url": "https://healthyveg-df4a7-default-rtdb.firebaseio.com",
+    "project_id": "healthyveg-df4a7",
+    "storage_bucket": "healthyveg-df4a7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629403527543:android:c6dda4f64a257d510ad972",
+        "android_client_info": {
+          "package_name": "dev.ckdevops.freshgreenery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629403527543-nplm814a80t8h2hgemvg2q6i8u4sgn2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.ckdevops.freshgreenery",
+            "certificate_hash": "2807a56e66c957d9d8f9f2466bae897021913500"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXHZArIvr3odLmlhzS8gAqw1WNSUQsMIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
